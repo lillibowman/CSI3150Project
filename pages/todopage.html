@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="../css/todoother.css" />
+    <link rel="stylesheet" href="../css/styleIndex.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="icon" href="../media/images/star.png" />
+    <title>to do</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navBar">
+        <ul class="navList">
+          <li class="li">
+            <img id="navImg" src="../media/images/star.png" alt="star logo" />
+          </li>
+          <li class="li">
+            <a href="#" onclick="location.href ='../index.html'">home</a>
+          </li>
+          <li class="li">
+            <a href="#" onclick="location.href ='./secondpage.html'">notes</a>
+          </li>
+          <li class="li">
+            <a href="#" onclick="location.href ='./todopage.html'"
+              >to do list</a
+            >
+          </li>
+          <li class="li">
+            <a href="#" onclick="location.href ='./calculatorpage.html' "
+              >calculator</a
+            >
+          </li>
+          <li class="li">
+            <a href="# ">contact us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="container">
+      <p>
+        <label for="new-task">add to list</label
+        ><input id="new-task" type="text" /><button>add</button>
+      </p>
+
+      <h3>to do</h3>
+      <ul id="incomplete-tasks">
+        <li class="todoli">
+          <input type="checkbox" /><label>pay bills</label
+          ><input type="text" /><button class="edit">edit</button
+          ><button class="delete">delete</button>
+        </li>
+        <li class="editMode">
+          <input type="checkbox" /><label>halloween decorations</label
+          ><input type="text" value="halloween decorations" /><button
+            class="edit"
+          >
+            edit</button
+          ><button class="delete">delete</button>
+        </li>
+      </ul>
+
+      <h3>completed</h3>
+      <ul id="completed-tasks">
+        <li class="todoli">
+          <input type="checkbox" checked /><label>make eye appt.</label
+          ><input type="text" /><button class="edit">edit</button
+          ><button class="delete">delete</button>
+        </li>
+      </ul>
+    </div>
+
+    <script type="text/javascript" src="../js/todootherscript.js"></script>
+  </body>
+</html>

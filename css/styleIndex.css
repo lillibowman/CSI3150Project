@@ -1,0 +1,84 @@
+body {
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: darkseagreen;
+}
+
+h1 {
+  color: floralwhite;
+  text-align: center;
+  /*  border, padding, margin */
+  border-style: double;
+  border-radius: 10px;
+}
+
+h2 {
+  color: floralwhite;
+  text-align: center;
+  /*  border, padding, margin */
+}
+
+p {
+  color: floralwhite;
+  text-align: justify;
+}
+
+/* navigation bar */
+
+#navImg {
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+.navList {
+  text-decoration: none;
+  padding: 0px;
+  background-color: darkseagreen;
+  border-radius: 10px;
+}
+
+.navList .li {
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.navList .li a {
+  display: block;
+  padding: 10px 25px;
+  color: floralwhite;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+/* clear in order to prevent collapsing when using float ex: clear: both*/
+
+.navList .li a:hover {
+  color: darkseagreen;
+  background-color: floralwhite;
+  border-radius: 10px;
+}
+.dropdown .li a:hover {
+  color: darkseagreen;
+  background-color: floralwhite;
+  border-radius: 10px;
+}
+
+.features {
+  text-decoration: none;
+}
+
+#liFeatures {
+  border: solid 1px white;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px;
+  background-color: #c8db9e;
+  color: floralwhite;
+  text-align: justify;
+}
+
+#footer {
+  text-align: center;
+  color: rgb(220, 245, 224);
+}
